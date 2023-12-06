@@ -18,7 +18,7 @@
 <body>
     <div class="scroller"></div>
     <div class="up">
-    <i class="fa-solid fa-angles-up"></i>
+        <i class="fa-solid fa-angles-up"></i>
     </div>
     <!-- Start Header -->
     <div class="header">
@@ -242,7 +242,7 @@
         <h2 class="main-title color2">GALLERY</h2>
         <div class="container">
             <div class="slider-container">
-                <div class="slide-num" id="slide-num"></div>
+                <div class="slide-num" id="Gallery-slide-num"></div>
                 <div class="box">
                     <div class="imge">
                         <img src="imges/photo_2022-11-08_13-24-28.jpg" alt="imge" />
@@ -275,10 +275,10 @@
                 </div>
             </div>
             <div class="slider-controls">
-                <div class="prev" id="prev">Prev</div>
-                <div class="bullets" id="bullets">
+                <div class="prev" id="Gallery-prev">Prev</div>
+                <div class="bullets" id="Gallery-bullets">
                 </div>
-                <div class="next" id="next">Next</div>
+                <div class="next" id="Gallery-next">Next</div>
             </div>
         </div>
     </div>
@@ -339,7 +339,8 @@
     <!-- Stat Testimonials -->
     <div class="testimonials" id="Testimonials">
         <h2 class="main-title color2">TESTIMONIALS</h2>
-        <div class="container">
+        <div class="container slider-container" id="sliderContainer">
+            <div class="slide-num" id="Testimonials-slide-num"></div>
             <div class="box">
                 <img src="imges/avatar-01.png" alt="" />
                 <h3>Shady Nabil</h3>
@@ -436,6 +437,12 @@
                     reprehenderit amet quam libero, velit nemo.
                 </p>
             </div>
+        </div>
+        <div class="slider-controls">
+            <div class="prev" id="Testimonials-prev">Prev</div>
+            <div class="bullets" id="Testimonials-bullets">
+            </div>
+            <div class="next" id="Testimonials-next">Next</div>
         </div>
     </div>
     <!-- End Testimonials -->
@@ -857,8 +864,10 @@
         <div class="imge">
             <div class="holder">
                 <h2>We Have A Discount</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur sit doloremque eum adipisci ea, fugit qui vitae culpa voluptate, voluptatibus cum quod dicta veniam ex mollitia est blanditiis porro molestiae!</p>
-            <img src="imges/discount.png" alt="">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur sit doloremque eum adipisci ea,
+                    fugit qui vitae culpa voluptate, voluptatibus cum quod dicta veniam ex mollitia est blanditiis porro
+                    molestiae!</p>
+                <img src="imges/discount.png" alt="">
             </div>
         </div>
         <div class="form">
@@ -868,7 +877,8 @@
                     <input type="text" name="username" id="username" class="input" placeholder="Your Name">
                     <input type="email" name="email" id="email" class="input" placeholder="Your Email">
                     <input type="text" name="phone" id="phone" class="input" placeholder="Your Phone">
-                    <textarea name="" id="message" name="message" maxlength="50" class="input textarea" placeholder="Tell Us About Your Needs"></textarea>
+                    <textarea name="" id="message" name="message" maxlength="50" class="input textarea"
+                        placeholder="Tell Us About Your Needs"></textarea>
                     <span class="progress"></span>
                     <span class="count"></span>
                     <input type="submit" value="send">
@@ -899,7 +909,8 @@
                         </a>
                     </li>
                 </ul>
-                <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus, voluptatum delectus. Ipsum sint quasi repellat.</p>
+                <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus, voluptatum delectus.
+                    Ipsum sint quasi repellat.</p>
             </div>
             <div class="box">
                 <ul class="links">
@@ -924,8 +935,8 @@
                 <div class="line">
                     <i class="fas fa-phone-volume fa-fw"></i>
                     <div class="info">
-                        <p >+20101234556</p>
-                        <p >+20101994556</p>
+                        <p>+20101234556</p>
+                        <p>+20101994556</p>
                     </div>
                 </div>
             </div>
